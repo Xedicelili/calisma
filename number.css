@@ -1,0 +1,48 @@
+body{
+    background-color:#FFF200;
+    font-family: 'Roboto', sans-serif;
+  }
+  .container{
+    display: flex;
+      justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  
+  }
+  .container-article{
+    width: 65%;
+    height: auto;
+  }
+  .container-article h1{
+    font-size: 40px;
+  }
+  .container-article p{
+    font-size:18px;
+  }
+  .container-box img{
+      width: 350px;
+      height: 250px;
+       object-fit: cover;
+       border-radius: 15px;
+  }
+  button{
+    border-radius: 25px;
+    width: 130px;
+    height: 30px;
+  }
+  .container-article i{
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  }
+  button:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  }
+  button:hover i{
+  background-color: white;
+  color: black;
+  }
