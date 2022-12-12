@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+  }
+  body{
+  background-image: url('https://maraqli-sekiller.com/uploads/posts/2019-05/maraqli-sekiller.com_seher-sekilleri-370-1.jpg');
+  background-size: cover;
+  color: white;
+  backdrop-filter: blur(2px);
+  background-repeat: no-repeat;
+  }
+  ul {
+   display: flex;
+   justify-content: space-evenly;
+   list-style: none;
+   padding-top:15px;
+   font-size: 18px;
+  }
+  li:hover{
+    color:red;
+    cursor:pointer;
+  }
+  .location{
+  font-size:30px;
+  color: red;
+  }
+  .search i{
+  margin-right: 5px;
+  font-size:14px;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+  }
+  .container h1{
+    font-size: 60px;
+  }
+  .container p {
+    font-size: 18px;
+  }
+  .button{
+    padding: 5px;
+    border-radius: 20px;
+    width: 125px;
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid white;
+    text-align: center;
+  }
+  .button i{
+color:red;
+  }
+  .button:hover{
+    border: 2px solid red;
+    color:red;
+  
+  }
